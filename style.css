@@ -1,0 +1,105 @@
+.recent h2 {
+    margin-top: 2em;
+}
+
+
+
+.recent {
+  text-align: center;
+}
+
+
+
+
+.portRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.portfolio-item {
+    padding: 1%;
+    max-width: 40%;
+    min-width: 400px;
+}
+
+img.img-portfolio.img-responsive {
+    max-width: 100%;
+}
+
+
+
+
+
+
+/*Getting the descriptions to show on hover*/
+/* relevant styles */
+.portfolio-item a {
+  position: relative;
+      display: block;
+      height: 100%;
+}
+
+.desc {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  line-height: 3em;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.portfolio-item a:hover .desc {
+  visibility: visible;
+  opacity: 1;
+}
+
+.portfolio-item:hover .img-portfolio {
+  filter: blur(3px) grayscale(50%) invert(60%)
+}
+
+.descp {
+  transition: .2s;
+  transform: translateY(1em);
+}
+
+p.descp {
+    background: white;
+    display: inline;
+    margin: 12px 0;
+    line-height: 1.2em;
+    padding: 5px;
+}
+
+.portfolio-item a:hover .descp {
+  transform: translateY(0);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 700px) {
+
+
+
+
+
+}
