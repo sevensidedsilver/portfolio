@@ -17,20 +17,35 @@
     justify-content: center;
 }
 
-
+.portlinks {
+    font-size: 1.8em;
+}
 .portfolio-item {
-    padding: 1%;
-    max-width: 40%;
-    min-width: 400px;
+  padding: 1%;
+  width: 100%;
 }
 
 img.img-portfolio.img-responsive {
     max-width: 100%;
 }
 
+section.contactSection {
+    background: rgba(111, 0, 255, 0.12);
+    padding: 32px;
+    text-align: center;
+    margin-top: 3em;
+}
+.contactHead h2 {
+    letter-spacing: 3px;
+}
+.contactCols {
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
+.contactCols a:hover {
+    color: grey;
+}
 
 
 /*Getting the descriptions to show on hover*/
@@ -86,15 +101,63 @@ p.descp {
   transform: translateY(0);
 }
 
+.portWrap {
+    padding: 1%;
+    max-width: 40%;
+    min-width: 400px;
+}
 
 
+footer.w3-container.w3-teal.w3-center.w3-margin-top {
+    display: flex;
+    flex-direction: column;
+    height: 110px;
+}
 
+footer div {
+    font-size: 2em;
+    padding: 0px;
+}
 
+.humanHeader {
+    text-align: center;
+  margin: 5em 0 4em;
+}
+h2 span {
+    font-size: .4em;
+}
 
+a {
+    text-decoration: none;
+    transition: .2s;
+    cursor: pointer;
+}
+a:hover {
+    color: #00dcff;
+    letter-spacing: 1px;
+    transition: .3s;
+}
 
+.humanDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 
+}
 
+.humanColumn {
+    max-width: 30%;
+    text-align: center;
+}
 
+.humanImage {
+    max-width: 59%;
+    margin: 3em auto;
+}
+
+img {
+    max-width: 100%;
+}
 
 @media only screen and (min-width: 700px) {
 
