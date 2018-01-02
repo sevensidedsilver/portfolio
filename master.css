@@ -1,4 +1,44 @@
+.sticky {
+    width: 100%;
+    background: rgb(0, 150, 136);
+    height: 51px;
+    top: 0px;
+    position: fixed;
+    z-index: 9005;
+}
+.w3-margin-top {
+    margin-top: 67px!important;
+}
+
+.sticky nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 50%;
+    float: right;
+    height: 100%;
+}
+
+.menuItem {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-right: 17px;
+    padding: 0 5px 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.menuItem:hover {
+    color: white;
+    letter-spacing: 2px;
+    background: #009688;
+    transition: .3s;
+}
+
+
 .recent h2 {
+
     margin-top: 2em;
 }
 
@@ -17,9 +57,13 @@
     justify-content: center;
 }
 
+
 .portlinks {
+    display: flex;
+    justify-content: space-around;
     font-size: 1.8em;
 }
+
 .portfolio-item {
   padding: 1%;
   width: 100%;
